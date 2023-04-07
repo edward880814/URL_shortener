@@ -1,0 +1,18 @@
+<!-- result page: display original and shortened urls -->
+<form style="display: inline;">
+  <label>Original URL:</label>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="{{ url.url }}" aria-label="Your website URL"
+      aria-describedby="button-addon" disabled readonly>
+    <button class="btn btn-primary" type="button" disabled>Transmit</button>
+  </div>
+</form>
+
+<form style="display: inline;">
+  <label style="color: blue;">SUCCESS!</label>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" value="{{ url.url_shortened }}" id="url-shortened"
+      aria-label="Shortened URL" aria-describedby="button-addon">
+  </div>
+  <!-- pop up alert when onclick copy btn -->
+</form>
