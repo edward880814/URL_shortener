@@ -8,4 +8,4 @@
 4. 用cd進入資料夾
 5. 輸入npm install
 6. 輸入npm run dev輸入npm run dev
-7. 開啟瀏覽器並到http://localhost:3000開始使用本網站
+7. 開啟瀏覽器並到http://localhost:3000 開始使用本網站
